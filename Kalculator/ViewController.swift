@@ -12,6 +12,7 @@ import Foundation
 class ViewController: UIViewController {
     
     private var calculator:Calculator?
+    
     @IBOutlet weak var resultScreen: UILabel!
     
     @IBAction func inputDigit(_ sender: Any) {
